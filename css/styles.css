@@ -89,6 +89,7 @@ p {
 #testimonials {
   text-align: center;
   background-color: #f6f3f0;
+  height: 700px;
 }
 
 .testimonial-image {
