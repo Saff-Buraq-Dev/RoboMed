@@ -1,0 +1,35 @@
+<div class="card-deck">
+    <div class="row">
+        <div class="card col-lg-6 col-md-6">
+            <agm-map [zoom]="13" [latitude]="lat" [longitude]="lng">
+                <agm-marker [latitude]="lat" [longitude]="lng"></agm-marker>
+            </agm-map>
+            <div class="card-body">
+                <p>
+                    9130, Rue St-Urbain <br>
+                    Montréal, QC H2N 1S7<br><br>
+                    <strong>Tel:</strong> +1 514 713 0322<br>
+                    <strong>Email:</strong> robot@robomed.com<br>
+                </p>
+            </div>
+        </div>
+        <div class="card col-lg-6 col-md-6">
+            <!-- contact form -->
+            <div class="contactez-nous flex-child">
+                <div class="container container-form">
+                    <div class="contact-box">
+                        <div class="left"></div>
+                        <div class="right">
+                            <h2 class="contact-text">Contactez nous</h2>
+                            <input type="text" class="field" placeholder="Votre nom">
+                            <input type="text" class="field" placeholder="Votre courriel">
+                            <input type="text" class="field" placeholder="Numéro de téléphone">
+                            <textarea placeholder="Message" class="field"></textarea>
+                            <button class="btn btn-contact btn-lg">Envoyer</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,75 @@
+[
+    {
+        "question": "Ressentez vous de la fièvre ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "fièvre"
+        ]
+    },{
+        "question": "Ressentez vous de la douleur ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "douleur"
+        ]
+    },{
+        "question": "Ressentez vous de la fatigue ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "fatigue"
+        ]
+    },{
+        "question": "Avez vous été en contact d'une personne malade ?",
+        "classe": "causes",
+        "motsCles": [
+            "contagion"
+        ]
+    },{
+        "question": "Avez-vous de la toux ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "toux"
+        ]
+    },{
+        "question": "Avez-vous des expectorations ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "expectoration"
+        ]
+    },{
+        "question": "Sont-elles fluides ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "expectoration fluide"
+        ]
+    },{
+        "question": "Êtes vous fumeur ?",
+        "classe": "causes",
+        "motsCles": [
+            "tabac"
+        ]
+    },{
+        "question": "Ressentez-vous l'envie de vomir ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "vomissements"
+        ]
+    },{
+        "question": "Avez-vous des difficultés respiratoires ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "gêne respiratoire"
+        ]
+    },{
+        "question": "Ressentez vous un gonflement aux jambes ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "gonflement des jambes"
+        ]
+    },{
+        "question": "Avez-vous remarqué l'apparition de tâches bleues ?",
+        "classe": "symptomes",
+        "motsCles": [
+            "cyanose"
+        ]
+    }
+]

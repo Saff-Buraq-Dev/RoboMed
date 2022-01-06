@@ -1,0 +1,14 @@
+Cardiologie
+Dermatologie
+Gastroentérologie 
+Maladies infectieuses 
+Neurologie
+Obstétrique et gynécologie
+Ophtalmologie
+Pédiatrie
+Pneumologie
+Psychiatrie 
+Rhumatologie
+Urologie
+orl
+traumato

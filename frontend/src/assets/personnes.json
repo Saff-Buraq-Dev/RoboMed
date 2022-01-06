@@ -1,0 +1,12 @@
+[
+    {
+        "nom": "Gharbi",
+        "prenom": "Safouene",
+        "dob": "08/03/1990",
+        "adresse": "9130 rue Saint-Urbain",
+        "taille": 189,
+        "poids": 91,
+        "img": "gharbi-safouene.jpg",
+        "fumeur": false
+    } 
+]

@@ -1,0 +1,40 @@
+<!-- HERO SECTION-->
+<section class="hero hero-home with-pattern d-flex align-items-center py-5">
+    <div class="container py-5 mt-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-5 mb-md-0">
+                <h1 class="mb-3">
+                    Votre <span class="text-principal">docteur </span> qui vous suit partout où vous êtes.
+                </h1>
+                <p class="text-muted">
+                    Plus besoin d'attendre de longues heures aux urgences. Consultez rapidement, et passez au triage
+                    avec <em>ROBOMED</em>.
+                </p>
+                <button (click)="open(content)" class="video-btn d-flex align-items-center" data-toggle="modal">
+                    <span class="video-btn-icon">
+                        <fa-icon [icon]="faPlay"></fa-icon>
+                    </span>
+                    <div class="ms-3">
+                        <span class="text-muted d-block line-height-sm">Regardez</span>
+                        <strong class="text-uppercase text-dark">Notre Intro</strong>
+                    </div>
+                </button>
+
+                <!-- Modal -->
+                <ng-template #content let-modal>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/PPL9_EFkYbI"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </ng-template>
+
+            </div>
+
+            <div class="col-md-5 ml-auto">
+                <div class="img-gradient img-gradient-right">
+                    <img class="img-fluid shadow rounded" src="../../../assets/hero.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

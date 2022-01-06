@@ -1,0 +1,28 @@
+.survey {
+    width: 80%;
+    margin: 100px auto;
+}
+
+h1 {
+    color: #92A9BD;
+    text-align: center;
+}
+
+.flex-parent {
+    display: flex;
+}
+
+.btn-survey {
+    justify-content: center;
+    width: 40%;
+    margin : 25px auto;
+}
+
+.btn-loading {
+    background-color: #47b2e4;
+    border-color: #47b2e4;
+}
+
+.btn-xl {
+    padding: 10px 20px;
+}

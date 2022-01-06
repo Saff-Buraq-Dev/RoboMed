@@ -1,0 +1,63 @@
+[
+    {
+        "nom": "Général",
+        "desc": "Si vous ne savez pas ou si vous ne trouvez pas la bonne spécialité pour votre cas.",
+        "img": "general.jpg"
+    },{
+        "nom": "Cardiologie",
+        "desc": "La cardiologie est une branche de la médecine qui traite des troubles du cœur ainsi que de certaines parties du système circulatoire.",
+        "img": "cardiologie.jpg"
+    },{
+        "nom": "Dermatologie",
+        "desc": "La dermatologie est une spécialité de médecine qui s'occupe de la peau, des muqueuses et des phanères (ongles, cheveux, poils).",
+        "img": "dermatologie.jpg"
+    },{
+        "nom": "Gastro-entérologie",
+        "desc": "La gastro-entérologie s'intéresse à l'ensemble du tube digestif, du pharynx jusqu'à l'anus, et des organes digestifs intra-abdominaux que sont le foie, les voies biliaires, et le pancréas (excepté dans sa fonction endocrine qui relève de l'endocrinologie).",
+        "img": "gastro.jpg"
+    },{
+        "nom": "Maladies infectieuses",
+        "desc": "Une maladie infectieuse est une maladie provoquée par l'invasion d'un ou plusieurs micro-organismes ou agent infectieux (virus, bactéries, parasites, champignons, protozoaires) dans un tissu où ils se multiplient, et par une réaction générale des cellules et des tissus infectés pour éliminer ces agents pathogènes.",
+        "img": "infectious.jpg"
+    },{
+        "nom": "Neurologie",
+        "desc": "La neurologie est la spécialité médicale clinique qui étudie l'ensemble des maladies du système nerveux et en particulier du cerveau.",
+        "img": "neurologie.jpg"
+    },{
+        "nom": "Obstétrique et gynécologie",
+        "desc": "La gynécologie s'intéresse à la femme, quel que soit son âge, et aux maladies touchant l'appareil génital féminin : vulve, vagin, utérus, trompes et ovaires.\nL'obstétrique s'intéresse à la femme enceinte et à son enfant à naître. C'est la médecine et la chirurgie de la femme, mais aussi, souvent, l'échographie, pour le diagnostic prénatal de certaines affections du fœtus",
+        "img": "gyneco.jpg"
+    },{
+        "nom": "Ophtalmologie",
+        "desc": "L’ophtalmologie est la branche de la médecine chargée du traitement des maladies de l’œil et de ses annexes.",
+        "img": "ophtalmo.jpg"
+    },{
+        "nom": "Pédiatrie",
+        "desc": "La pédiatrie est une branche spécialisée de la médecine qui étudie le développement neuro-sensori-moteur et physiologique normal de l'enfant, ainsi que toute la pathologie qui y a trait (maladies infantiles), de la naissance à la période postpubertaire où il devient adulte.",
+        "img": "pediatrie.jpg"
+    },{
+        "nom": "Pneumologie",
+        "desc": "La pneumologie est la branche de la médecine s'intéressant aux pathologies respiratoires.",
+        "img": "pneumo.jpeg"
+    },{
+        "nom": "Psychiatrie",
+        "desc": "La psychiatrie est une spécialité médicale traitant de la maladie mentale.",
+        "img": "psychiatrie.jpeg"
+    },{
+        "nom": "Rhumatologie",
+        "desc": "La rhumatologie est une spécialité médicale qui s'intéresse au diagnostic et au traitement des maladies de l'appareil locomoteur, c'est-à-dire des maladies des os, des articulations, des muscles, des tendons et des ligaments.",
+        "img": "rhumato.jpg"
+    },{
+        "nom": "Urologie",
+        "desc": "L’urologie est le domaine de la médecine qui s'applique aux reins, aux voies urinaires des femmes ou des hommes, au système reproducteur masculin (appareil urogénital masculin) et aux glandes surrénales.",
+        "img": "urologie.jpg"
+    },{
+        "nom": "Orl",
+        "desc": "L'otorhinolaryngologie (littéralement « étude de l'oreille, du nez et du larynx ») représente une branche de la médecine spécialisée dans le diagnostic et le traitement des troubles du nez, de la gorge, de l'oreille, et de la région tête et cou. ",
+        "img": "orl.jpg"
+    },{
+        "nom": "Traumatologie",
+        "desc": "La traumatologie est l'étude médicale des traumatismes physiques, c'est-à-dire des atteintes à la santé résultant d'une action extérieure violente et soudaine.",
+        "img": "traumato.jpg"
+    }
+]

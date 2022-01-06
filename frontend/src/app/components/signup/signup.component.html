@@ -1,0 +1,30 @@
+<div class="w-50 m-auto">
+    <form [formGroup]="signupForm" (ngSubmit)="signup()" id="form2">	
+        <div class="form-group">
+            <label for="nom" class="form-label visually-hidden">nom</label>
+            <input autocomplete="on" formControlName="nom" type="text" matInput class="form-control col-xs-6" id="nom" aria-label="nom" placeholder="nom">
+        </div>			  
+        <div class="form-group">
+            <label for="prenom" class="form-label visually-hidden">prénom</label>
+            <input autocomplete="on" formControlName="prenom" type="text" matInput class="form-control col-xs-6" id="prenom" aria-label="prénom" placeholder="prénom">
+        </div>
+        <div class="form-group">
+            <label for="telephone" class="form-label visually-hidden">téléphone</label>
+            <input autocomplete="on" formControlName="telephone" type="tel" matInput class="form-control col-xs-6" id="telephone" aria-label="téléphone" placeholder="téléphone">
+        </div>
+        <div class="form-group">
+            <label for="adresse" class="form-label visually-hidden">adresse de livraison</label>
+            <input autocomplete="on" formControlName="adresse" type="text" matInput class="form-control col-xs-6" id="adresse" aria-label="adresse" placeholder="adresse">
+        </div>
+        <div class="form-group">
+            <label for="courriel" class="form-label visually-hidden">courriel</label>
+            <input autocomplete="on" formControlName="email" type="email" matInput class="form-control col-xs-6" id="courriel" aria-label="courriel" placeholder="courriel">
+        </div>		  
+        <div class="form-group">
+            <label for="motPasse" class="form-label visually-hidden">mot de passe</label>
+            <input autocomplete="off" formControlName="password" type="password" matInput class="form-control col-xs-6" id="motPasse" aria-label="mot de passe" placeholder="mot de passe (8 caractères min)">
+        </div>		  	
+        <app-button color="#47b2e4" fontWeight="bold" textColor="#444444" text="Soumettre"></app-button>
+        <p *ngIf="showError" id="affiche" class="l_color-red text-end float-end">Vérifiez vos informations</p>
+    </form>
+</div>

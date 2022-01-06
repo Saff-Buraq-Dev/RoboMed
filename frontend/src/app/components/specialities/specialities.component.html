@@ -1,0 +1,24 @@
+<section>
+    <div class="container">
+        <div class="row">
+            <!--Cardiologie-->
+            <div *ngFor="let speciality of specialities" class="col-md-4 mt-4 d-flex align-items-stretch">
+                <div class="card profile-card-5">
+                    <div class="card-img-block">
+                        <img class="card-img-top" src={{getUrl(speciality)}} alt="Card image cap">
+                    </div>
+                    <div class="card-body pt-0">
+                        <h5 class="card-title">{{speciality.nom}}</h5>
+                        <p class="card-text">{{speciality.desc}}</p>
+                        <a routerLink="/questions">
+                            <app-button class={{speciality.nom}} id="choice-button" color="#47b2e4" fontWeight="bold"
+                                textColor="#444444" text="Commencer">
+                            </app-button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

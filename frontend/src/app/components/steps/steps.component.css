@@ -1,0 +1,15 @@
+.numeric-block {
+  position: relative;
+}
+
+.numeric-block-count {
+  position: absolute;
+  color: #47b2e4;
+  top: -1rem;
+  left: 0;
+  font-size: 6rem;
+  font-weight: 700;
+  opacity: 0.25;
+  z-index: -1;
+  line-height: 1;
+}

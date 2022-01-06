@@ -1,0 +1,23 @@
+<!--Profile Card 3-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 d-flex align-items-stretch">
+            <div class="card profile-card-3">
+                <div class="background-block">
+                    <img src="https://images.pexels.com/photos/459225/pexels-photo-459225.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="profile-sample1" class="background"/>
+                </div>
+                <div class="profile-thumb-block">
+                    <img src={{personne.getImgUrl()}} alt="profile-image" class="profile"/>
+                </div>
+                <div class="card-content">
+                <h2>{{personne.getFullName()}}<small>{{personne.getAge()}}</small></h2>
+                <div class="card-body pt-0">
+                    <p><strong>Taille: </strong> {{personne.getTaille()}}</p>
+                    <p><strong>Poids: </strong>{{personne.getPoids()}}</p>
+                    <p><strong>Fumeur: </strong>{{personne.getSmokeStatus()}}</p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

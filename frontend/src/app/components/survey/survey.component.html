@@ -1,0 +1,14 @@
+<div class="container survey">
+    <div class="d-flex justify-content-center">
+        <button *ngIf="end" class="btn btn-lg btn-primary btn-loading" type="button" disabled>
+            <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+            Loading...
+        </button>
+    </div>
+    <h1 *ngIf="!end">{{questionActuelle.question}}</h1>
+    <div *ngIf="!end" class="flex-parent btn-survey">
+        <app-button class="margin-right" (click)="clickYes()" color="#47b2e4" fontWeight="bold" textColor="#444444" text="OUI"></app-button>
+        <app-button (click)="clickNo()" color="#47b2e4" fontWeight="bold" textColor="#444444" text="NON"></app-button>
+    </div>
+</div>
+

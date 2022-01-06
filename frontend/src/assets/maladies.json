@@ -1,0 +1,84 @@
+[
+    {
+        "nom": "Grippe",
+        "desc": "La grippe est une maladie infectieuse due à un virus (Myxovirus influenzae aussi appelé Influenzavirus). Le virus se multiplie dans les cellules de la muqueuse de l'appareil respiratoire. On recense trois genres d'Infulenza virus, appelés A, B et C. Le type A est le plus dangereux, il peut se modifier de façon importante et circule également chez quelques animaux (oiseaux aquatiques, poulets, porcs, chevaux). Le type B est le plus fréquent, propre à l'homme, il est responsable d'épidémies. Le type C provoque des symptômes proches du rhume. ",
+        "causes": [
+            "contagion"
+        ],
+        "consultation": [
+            "femme enceinte",
+            "âge 65+",
+            "bébé",
+            "maladie chronique",
+            "traitement immunodépresseur"
+        ],
+        "symptomes": [
+            "fièvre",
+            "frissons",
+            "malaise intense",
+            "douleurs diffuses",
+            "perte d'appétit",
+            "fatigue",
+            "rhinite",
+            "bronchite",
+            "pharyngite"
+        ],
+        "examensCompl": [
+            "bilan sanguin",
+            "radio thorax",
+            "prélèvements des voies aériennes"
+        ],
+        "traitement": [
+            "repos",
+            "humidification de l'atmosphère",
+            "hydratation",
+            "port de vêtements légers",
+            "antipyrétiques",
+            "antiviraux",
+            "antibiotiques"
+        ],
+        "prevention": [
+            "vaccin"
+        ],
+        "diagnosticDiff": []
+    },{
+        "nom": "Bronchite",
+        "desc": "La bronchite chronique (BPCO) est une maladie respiratoire parfois invalidante, touchant la plupart du temps les fumeurs.",
+        "causes": [
+            "tabac",
+            "climat",
+            "infections respiratoires"
+        ],
+        "consultation":[],
+        "symptomes": [
+            "toux",
+            "vomissements",
+            "expectoration fluide",
+            "gêne respiratoire",
+            "cyanose",
+            "gonflement des jambes"
+        ],
+        "examensCompl": [
+            "radio pulmonaire",
+            "spirométrie",
+            "exploration fonctionnelle respiratoire",
+            "hémogramme",
+            "électrocardiogramme"
+        ],
+        "traitement": [
+            "bêtamimétiques en inhalation",
+            "corticoïdes",
+            "antibiotiques",
+            "kinésithérapie respiratoire",
+            "ventilation"
+        ],
+        "prevention": [
+            "respirer de l'air pur",
+            "exercice",
+            "se couvrir par temps froid",
+            "perdre les kilos en trop",
+            "vaccin"
+        ],
+        "diagnosticDiff": []
+    }
+]
